@@ -15,7 +15,7 @@ Right-click the base folder where you wish to clone the repository, and click `O
 Now run the follow command in the `Terminal` to clone the repository.
 
 ```
-git clone https://github.com/Stuyk/rebar-altv/
+git clone https://github.com/Nero-XE/rebar-altv/
 ```
 
 _You may or may not be prompted to make a GitHub account, if you are. Make one and sign into it._

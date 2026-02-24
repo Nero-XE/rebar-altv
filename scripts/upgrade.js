@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 import * as fs from 'fs';
 import path from 'path';
 
-const repoUrl = 'https://github.com/Stuyk/rebar-altv';
+const repoUrl = 'https://github.com/Nero-XE/rebar-altv';
 
 const tmpPath = path.resolve(process.cwd(), 'tmp');
 

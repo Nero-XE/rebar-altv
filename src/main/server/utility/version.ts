@@ -1,7 +1,7 @@
 import * as alt from 'alt-server';
 import * as fs from 'fs';
 
-const MainVersionPath = `https://raw.githubusercontent.com/Stuyk/rebar-altv/main/package.json`;
+const MainVersionPath = `https://raw.githubusercontent.com/Nero-XE/rebar-altv/main/package.json`;
 
 async function init() {
     const packageJSON = fs.readFileSync('package.json', 'utf-8');

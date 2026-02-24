@@ -40,7 +40,7 @@ These are optional but recommended if developing
 Open a `terminal` and `clone` the repository somewhere.
 
 ```
-git clone https://github.com/Stuyk/rebar-altv/
+git clone https://github.com/Nero-XE/rebar-altv/
 ```
 
 ### Navigate into Rebar
@@ -155,7 +155,7 @@ Copy the file `package.json` to the main folder of Rebar.
 
 Run `pnpm upgrade` and `pnpm install`.
 
-[Click To Download Latest Source Code](https://github.com/Stuyk/rebar-altv/archive/refs/heads/main.zip)
+[Click To Download Latest Source Code](https://github.com/Nero-XE/rebar-altv/archive/refs/heads/main.zip)
 
 That's it.
 

@@ -86,7 +86,7 @@ function handleClick(ev: MouseEvent) {
 
     clonedElement = refElement.cloneNode(true) as HTMLElement;
     clonedElement.classList.add('pointer-events-none');
-    clonedElement.classList.add('bg-opacity-75');
+    clonedElement.classList.add('bg-black/75');
     clonedElement.classList.add('fixed');
     document.body.append(clonedElement);
 

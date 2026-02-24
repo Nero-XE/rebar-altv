@@ -194,7 +194,7 @@ The easiest way to do this is to apply `fixed` css with `flex` and then use cent
 ```vue
 <template>
     <div class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center">
-        <div class="flex w-1/3 flex-col gap-4 rounded-lg bg-zinc-900 bg-opacity-80 p-6">
+        <div class="flex w-1/3 flex-col gap-4 rounded-lg bg-black/80 p-6">
             <!-- Our Content Goes Here -->
         </div>
     </div>
@@ -212,7 +212,7 @@ We're going to add a header, two inputs, and a single button for registering and
 ```vue
 <template>
     <div class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center">
-        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-zinc-900 bg-opacity-80 p-6">
+        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-black/80 p-6">
             <div class="font-bold text-white">Authenticate</div>
             <input type="text" placeholder="username" class="rounded-md bg-zinc-900 p-2 text-white" />
             <input type="password" placeholder="password" class="rounded-md bg-zinc-900 p-2 text-white" />
@@ -262,7 +262,7 @@ const password = ref<string>('');
 
 <template>
     <div class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center">
-        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-zinc-900 bg-opacity-80 p-6">
+        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-black/80 p-6">
             <div class="font-bold text-white">Authenticate</div>
             <input
                 v-model="username"
@@ -325,7 +325,7 @@ function loginOrRegister() {
 
 <template>
     <div class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center">
-        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-zinc-900 bg-opacity-80 p-6">
+        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-black/80 p-6">
             <div class="font-bold text-white">Authenticate</div>
             <input
                 v-model="username"
@@ -496,7 +496,7 @@ watch(password, (value) => {
 
 <template>
     <div class="fixed left-0 top-0 flex h-screen w-screen items-center justify-center">
-        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-zinc-900 bg-opacity-80 p-6">
+        <div class="flex w-1/2 flex-col gap-4 rounded-lg bg-black/80 p-6">
             <div class="font-bold text-white">Authenticate</div>
             <input
                 v-model="username"
